@@ -39,6 +39,7 @@ Esse problema é uma variação do clássico problema de otimização conhecido 
 Para abstrair as questões de localização e coordenadas reais (como GPS), utilizamos uma matriz para representar os pontos da cidade.
 
 ### 🗺️ Exemplo
+'''
 +---+---+---+---+---+
 | 0 | 0 | 0 | 0 | D |
 +---+---+---+---+---+
@@ -48,6 +49,7 @@ Para abstrair as questões de localização e coordenadas reais (como GPS), util
 +---+---+---+---+---+
 | R | 0 | B | 0 | 0 |
 +---+---+---+---+---+
+'''
 
 
 ### 📍 Interpretação
