@@ -40,6 +40,7 @@ Para abstrair as questões de localização e coordenadas reais (como GPS), util
 
 ### 🗺️ Exemplo
 '''
+
 +---+---+---+---+---+
 | 0 | 0 | 0 | 0 | D |
 +---+---+---+---+---+
@@ -49,6 +50,7 @@ Para abstrair as questões de localização e coordenadas reais (como GPS), util
 +---+---+---+---+---+
 | R | 0 | B | 0 | 0 |
 +---+---+---+---+---+
+
 '''
 
 
