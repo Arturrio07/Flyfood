@@ -31,3 +31,39 @@ O principal desafio consiste em definir a ordem ideal de visita aos pontos de en
 - O objetivo é minimizar o custo total do trajeto
 
 Esse problema é uma variação do clássico problema de otimização conhecido como **Problema do Caixeiro Viajante (TSP)**.
+
+---
+
+## 📂 Representação da Matriz
+
+Para abstrair as questões de localização e coordenadas reais (como GPS), utilizamos uma matriz para representar os pontos da cidade.
+
+### 🗺️ Exemplo
++---+---+---+---+---+
+| 0 | 0 | 0 | 0 | D |
++---+---+---+---+---+
+| 0 | A | 0 | 0 | 0 |
++---+---+---+---+---+
+| 0 | 0 | 0 | 0 | C |
++---+---+---+---+---+
+| R | 0 | B | 0 | 0 |
++---+---+---+---+---+
+
+
+### 📍 Interpretação
+
+- O ponto superior esquerdo é o **(0,0)** e não contém entrega  
+- O ponto **A** está em **(1,1)**  
+- O ponto **B** está em **(3,2)**  
+- O ponto **C** está em **(2,4)**  
+- O ponto **D** está em **(0,4)**  
+- O ponto **R** em **(3,0)** representa a **origem e retorno do drone**
+
+Por convenção, o drone sempre:
+- Parte de `R`
+- Realiza todas as entregas
+- Retorna para `R` ao final
+
+---
+
+Essa matriz define o ambiente de navegação do drone, onde ele só pode se mover horizontalmente ou verticalmente.
