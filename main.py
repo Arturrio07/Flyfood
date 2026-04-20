@@ -1,5 +1,8 @@
 from utils import ler_matriz
 from algoritmo import forca_bruta
+import time
+
+inicio = time.perf_counter()
 
 def main():
     try:
@@ -22,3 +25,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+fim = time.perf_counter()
+
+tempo_total = fim - inicio 
+print(f"O algoritmo levou {tempo_total:.6f} segundos para ser executado.")
