@@ -29,4 +29,4 @@ if __name__ == "__main__":
 fim = time.perf_counter()
 
 tempo_total = fim - inicio 
-print(f"O algoritmo levou {tempo_total:.6f} segundos para ser executado.")
+print(f"O algoritmo levou {tempo_total:.6f} segundos para ser executado.") #Printa o tempo de execução do código, com 6 casas decímais
