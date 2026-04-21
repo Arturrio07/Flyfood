@@ -71,3 +71,12 @@ Por convenção, o drone sempre:
 ---
 
 Essa matriz define o ambiente de navegação do drone, onde ele só pode se mover horizontalmente ou verticalmente.
+
+
+
+### 👥 Participantes
+
+- Artur Rio
+- Diego Luiz
+- Lucas Guerra
+- Pedro Poroca
