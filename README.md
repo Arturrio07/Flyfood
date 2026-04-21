@@ -14,7 +14,7 @@ Nesse cenário, os drones saem de um ponto de origem carregando múltiplos pedid
 
 ## 🎯 Objetivo
 
-O objetivo deste projeto é desenvolver um algoritmo capaz de determinar a **melhor rota possível** para um drone realizar todas as entregas, minimizando a distância total percorrida.
+O objetivo deste projeto é desenvolver um algoritmo capaz de determinar a **melhor rota possível** para um drone realizar todas as entregas, **minimizando** a distância total percorrida.
 
 A solução busca otimizar o uso da bateria e tornar o processo de entrega mais eficiente.
 
