@@ -74,6 +74,20 @@ Essa matriz define o ambiente de navegação do drone, onde ele só pode se move
 
 ---
 
+
+### 🧠 Método
+
+- O algoritmo implementado adota a busca exaustiva por forca bruta: gera todas as permutações possíveis da sequência de pontos de entrega e avalia o custo total de cada rota, selecionando a de menor distância acumulada. Essa estratégia garante a obtenção da solução ótima, ao custo de complexidade fatorial O(n!).
+
+### 📂 Noção Matemática
+
+- O espaço de entregas e modelado como um grafo G = (V, E), onde os vértices V representam os pontos de entrega e a origem, e as arestas E tem pesos dados pela distância de Manhattan. Para dois pontos P1 = (r1, c1) e P2 = (r2, c2):
+D(P1, P2) = |r1 - r2| + |c1 - c2|
+
+Essa métrica e adequada para ambientes urbanos ortogonais, como quarteões de cidades, onde o deslocamento diagonal não é possível. No código do FlyFood, essa função esta implementada em utils.py:
+return abs(p1[0] - p2[0]) + abs(p1[1] - p2[1])
+
+
 ### 👥 Participantes
 
 - Artur Rio
